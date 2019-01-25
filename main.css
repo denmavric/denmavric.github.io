@@ -17,5 +17,11 @@ hr {
 }
 
 body {
-    background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/HKO9ymTsej0hwltd9/videoblocks-abstract-animation-with-straight-lines-in-spatial-space-background-with-moving-stars_bn-jm5caix_thumbnail-full01.png");
+    background: url("https://i.imgur.com/EUQzqtS.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
+
