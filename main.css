@@ -1,47 +1,82 @@
-h1 {
-    letter-spacing: 8px;
-    color: black;
-    
-}
 
-p {
-    color: black;
-}
 
-.navbar-brand {
-    color: black;
-}
-
-hr {
-    color: black;
-}
-
-body {
-    background-color: black;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+.bg-2 {
+    background-image: url('https://i.imgur.com/VkkWb7r.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    transition: background-color 3.5s ease;
-    -webkit-animation: backgroundScroll 15s linear 1;
-    -webkit-animation-fill-mode: forwards;
-    animation: backgroundScroll 15s linear 1;
-    animation-fill-mode: forwards;
-
+    background-position: center top;
+    width: 100%;
+    height: 436px;
+    font-family: "Poppins", Arial;
+    transition: transform .2s;
+    color: red;
+    text-decoration: none;
 }
 
-@keyframes backgroundScroll {
-    from {background-position: 0 0;}
-    to {background-position: -180px 0px;}
+.bg-2:hover {
+    transform: scale(1.25);
+    text-decoration: none;
 }
 
-.easy {
-    background: url('http://pngimg.com/uploads/simpsons/simpsons_PNG2.png');
-    margin-left: 50%;
-    width: 420px;
-    height: 180px;
+.nav {
+    margin-left: 15px;
+    margin-top: 7px;
+    font-size: 15px;
+    font-family: "Poppins", Arial;
+    background-color: transparent;
+    color: red;
+}
+
+.nav-brand:hover {
+    color: gray;
+    box-shadow: 4px;
+    text-decoration: none;
+}
+
+.nav-item-1:hover {
+    color: gray;
+    box-shadow: 4px;
+    text-decoration: none;
+}
+
+.nav-brand {
+    padding: 25px;
+}
+
+.nav-item-1 {
+    padding: 25px;
+}
+
+.buynow:hover {
+    color: red;
 }
 
 
+h1 {
+    font-family: "Poppins", Arial;
+    color: white;
+}
 
+.card-title {
+    font-family: Poppins, arial;
+}
+
+.card-text {
+    font-family: Poppins, arial;
+    width: 140px;
+}
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+.nav-brand:hover {
+    transform: scale(1.15);
+}
+
+.nav-item-1:hover {
+    transform: scale(1.15);
+}
 
